@@ -226,6 +226,15 @@ img {
   color: var(--text-default);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.main-btn{
+  border: none;
+  width: 200px;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--text-default);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
 
 /* ########### END HEDER ############## */
 
@@ -519,6 +528,26 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-title{
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 12px;
+  min-width: 448px;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.03em;
+
+}
+label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 28px;
+    }
+textarea{
+  resize: none;
+}    
 
 /* ########### PORTFOLIO ############## */
 .container .filters-list {

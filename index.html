@@ -370,6 +370,31 @@
                     <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
             </button>
+            <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+            <form name="signup_form" action="" method="POST" autocomplete="on" novalidate>
+                <label>
+                    Imie
+                    <input type="text" name="username" placeholder="Jan" />
+                </label>
+                <label>
+                    Telefon
+                    <input type="tel" name="userphonenumber" placeholder="111 111 111" />
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="useremail" placeholder="user1@gmail.com" />
+                </label>
+                <label>
+                    Komentarz
+                    <textarea name="usercomment" rows="5" placeholder="Wprowadź tekst"></textarea>
+                </label>
+                <label>
+                    <input type="checkbox" name="hobby" value="music" checked />
+                    Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+                </label>
+            
+                <button class="submit-btn main-btn blue-btn" type="submit">Wyślij</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
