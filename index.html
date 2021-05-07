@@ -374,36 +374,37 @@
             <form class="form" name="signup_form" action="" method="POST" autocomplete="on" novalidate>
                 <div class="label-item">
                     <label>
-                        Imie
+                        <span class="label-description">Imie</span> 
                         <input type="text" name="username" placeholder="Jan" />
                     </label>
                 </div>
                 <div class="label-item">
                     <label>
-                        Telefon
+                        <span class="label-description">Telefon</span> 
                         <input type="tel" name="userphonenumber" placeholder="111 111 111" />
                     </label>
                 </div>
                 <div class="label-item">
                     <label>
-                        Email
+                        <span class="label-description">Email</span>
                         <input type="email" name="useremail" placeholder="user1@gmail.com" />
                     </label>
                 </div>
                 <div class="label-item">
-                <label>
-                    Komentarz
-                    <textarea name="usercomment" rows="5" placeholder="Wprowadź tekst"></textarea>
-                </label>
+                    <label>
+                        <span class="label-description">Komentarz</span>
+                        <textarea name="usercomment" rows="5" placeholder="Wprowadź tekst"></textarea>
+                    </label>
                 </div>
                 <div class="label-item">
-                <label class="modalcheckbox">
-                    <input type="checkbox" name="statutes" value="statutes" checked />
-                    Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
-                </label>
+                    <label class="modalcheckbox">
+                        <input type="checkbox" name="statutes" value="statutes" checked />
+                         <span class="checkbox-description">Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span> 
+                    </label>
                 </div>
-                
-                <button class="submit-btn main-btn blue-btn" type="submit">Wyślij</button>
+                <div class="submit-item">
+                <button class="submit-btn" type="submit">Wyślij</button>
+                </div>
             </form>
         </div>
     </div>
