@@ -371,28 +371,38 @@
                 </svg>
             </button>
             <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
-            <form name="signup_form" action="" method="POST" autocomplete="on" novalidate>
-                <label>
-                    Imie
-                    <input type="text" name="username" placeholder="Jan" />
-                </label>
-                <label>
-                    Telefon
-                    <input type="tel" name="userphonenumber" placeholder="111 111 111" />
-                </label>
-                <label>
-                    Email
-                    <input type="email" name="useremail" placeholder="user1@gmail.com" />
-                </label>
+            <form class="form" name="signup_form" action="" method="POST" autocomplete="on" novalidate>
+                <div class="label-item">
+                    <label>
+                        Imie
+                        <input type="text" name="username" placeholder="Jan" />
+                    </label>
+                </div>
+                <div class="label-item">
+                    <label>
+                        Telefon
+                        <input type="tel" name="userphonenumber" placeholder="111 111 111" />
+                    </label>
+                </div>
+                <div class="label-item">
+                    <label>
+                        Email
+                        <input type="email" name="useremail" placeholder="user1@gmail.com" />
+                    </label>
+                </div>
+                <div class="label-item">
                 <label>
                     Komentarz
                     <textarea name="usercomment" rows="5" placeholder="Wprowadź tekst"></textarea>
                 </label>
+                </div>
+                <div class="label-item">
                 <label class="modalcheckbox">
                     <input type="checkbox" name="statutes" value="statutes" checked />
                     Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
                 </label>
-            
+                </div>
+                
                 <button class="submit-btn main-btn blue-btn" type="submit">Wyślij</button>
             </form>
         </div>
