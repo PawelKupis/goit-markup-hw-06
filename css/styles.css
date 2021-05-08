@@ -528,7 +528,11 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-title{
+.modal-form{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.modal-form-title{
   display: flex;
   padding-top: 40px;
   padding-bottom: 12px;
@@ -538,11 +542,6 @@ line-height: 23px;
 text-align: center;
 justify-content: center;
 letter-spacing: 0.03em;
-
-}
-.form{
-  padding-right: 40px;
-  padding-left: 40px;
 }
 label {
       display: flex;
@@ -566,9 +565,6 @@ textarea{
 box-sizing: border-box;
 border-radius: 4px;
 outline: none;
-}
-input[type="checkbox"]{
-  display: none;
 }
 .submit-item{
   display: flex;
@@ -601,6 +597,16 @@ letter-spacing: 0.06em;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: 0px;
+}
+.visually-hidden{
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 /* ########### PORTFOLIO ############## */
