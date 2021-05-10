@@ -567,21 +567,21 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   padding-left: 42px;
 }
 .modal-input:focus,
-.modal-textarea:focus{
+.modal-textarea:focus {
   fill: var(--main-color);
-  border-color:var(--main-color);
+  border-color: var(--main-color);
   outline: none;
 }
-.modal-input-icon{
+.modal-input-icon {
   position: absolute;
   top: 50%;
   left: 15px;
-  transform: translatey(-50%) ;
+  transform: translatey(-50%);
   width: 12px;
   height: 12px;
-  fill: var(--text-default); 
+  fill: var(--text-default);
 }
-.modal-input:focus + .modal-input-icon{
+.modal-input:focus + .modal-input-icon {
   fill: var(--main-color);
 }
 .modal-textarea {
@@ -600,14 +600,14 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   letter-spacing: 0.03em;
   color: var(--description);
 }
-.policy-label::before{
+.policy-label::before {
   display: inline-block;
   content: "";
   width: 16px;
   height: 15px;
   outline: 1px solid var(--text-default);
 }
-.modal-policy-text{
+.modal-policy-text {
   color: var(--main-color);
   text-decoration: underline;
 }
@@ -627,8 +627,7 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
 .modal-checkbox {
   margin-right: 7px;
 }
-.policy-label{
-
+.policy-label {
 }
 .modal-btn {
   width: 200px;
