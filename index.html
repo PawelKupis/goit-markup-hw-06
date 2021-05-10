@@ -372,38 +372,38 @@
             </button>
             <form class="modal-form" name="signup_form" action="" method="POST" autocomplete="on" novalidate>
                 <h3 class="modal-form-title">Zostaw swoje dane w formularzu poniżej</h3>
-                <div class="label-item">
-                    <label class="modal-form-">
-                        <span class="label-description">Imie</span> 
-                        <input type="text" name="username" placeholder="Jan" />
-                    </label>
+                <label class="modal-label" for="name" required> Imie</label>
+                <div class="modal-input-wrapper">
+                    <input class="modal-input" type="text" name="username" placeholder="Jan"></input>
+                    <svg class="modal-input-icon">
+                        <use href="./images/icons.svg#icon-modalperson"></use>
+                    </svg>
                 </div>
-                <div class="label-item">
-                    <label>
-                        <span class="label-description">Telefon</span> 
-                        <input type="tel" name="userphonenumber" placeholder="111 111 111" />
-                    </label>
+                <label class="modal-label" for="telephone"> Telefon </label>
+                <div class="modal-input-wrapper">
+                    <input class="modal-input" type="tel" name="userphonenumber" placeholder="111 111 111">
+                    <svg class="modal-input-icon">
+                        <use href="./images/icons.svg#icon-modalphone"></use>
+                    </svg>
                 </div>
-                <div class="label-item">
-                    <label>
-                        <span class="label-description">Email</span>
-                        <input type="email" name="useremail" placeholder="user1@gmail.com" />
-                    </label>
+                <label class="modal-label" for="email" required> Email</label>
+                <div class="modal-input-wrapper">
+                    <input class="modal-input" type="email" name="useremail" placeholder="jan@mail.com">
+                    <svg class="modal-input-icon">
+                        <use href="./images/icons.svg#icon-modalemail"></use>
+                    </svg>
                 </div>
-                <div class="label-item">
-                    <label>
-                        <span class="label-description">Komentarz</span>
-                        <textarea name="usercomment" rows="5" placeholder="Wprowadź tekst"></textarea>
-                    </label>
-                </div>
-                <div class="label-item">
-                    <label class="modalcheckbox">
-                        <input type="checkbox" name="statutes" value="statutes" checked />
-                         <span class="checkbox-description">Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span> 
-                    </label>
-                </div>
-                <div class="submit-item">
-                <button class="submit-btn" type="submit">Wyślij</button>
+                <label class="modal-label" for="comment">Komentarz </label>
+                    <textarea class="modal-textarea" name="usercomment" id="textarea" cols="30" rows="5" placeholder="Wprowadź tekst"></textarea>
+                <div class="modal-checkbox-wrapper">
+                    <div class="modal-disclaimer-wrapper">
+                        <input class="modal-checkbox" type="checkbox" name="statutes" value="statutes" required/>
+                        <label class="policy-label"> Oświadczam iż akceptuję 
+                             <a class="modal-policy" href="#">Regulamin</a> i 
+                             <a class="modal-policy" href="#">Politykę Prywatności.</a> </span> 
+                        </label>
+                    </div>
+                    <button class="modal-btn" type="submit">Wyślij</button>
                 </div>
             </form>
         </div>
