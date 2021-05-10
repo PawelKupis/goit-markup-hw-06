@@ -473,10 +473,52 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
 .footer .container {
   display: flex;
 }
-
 .footer-icon {
   fill: var(--white);
 }
+.footer-form{
+  min-width: 570px;
+  padding-left: 78px;
+}
+.footer-form-title{
+  padding-bottom: 20px;
+  font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer-form-label{
+  display: inline-block;
+}
+.footer-input{
+  width: 358px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2F303A;
+/* outline: none; */
+}
+.footer-form-btn{
+  width: 200px;
+height: 50px;
+padding-right: 76px;
+color: var(--white);
+  background: var(--main-color) ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 0px;
+}
+.footer-form-btn::before{
+  background-image: url(../images/vectors/vectorunchecked.svg);
+}
+/* .footer-button-icon{
+  width: 24px;
+  height: 24px;
+  fill: var(--white);
+} */
 
 /* ########### END FOOTER ############## */
 
@@ -609,10 +651,6 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   flex-direction: column;
   margin: 0 auto;
   padding-top: 20px;
-}
-
-.modal-checkbox {
-  
 }
 .policy-label {
   font-size: 14px;
