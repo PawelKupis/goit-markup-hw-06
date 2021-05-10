@@ -395,14 +395,10 @@
                 </div>
                 <label class="modal-label" for="comment">Komentarz </label>
                     <textarea class="modal-textarea" name="usercomment" id="textarea" cols="30" rows="5" placeholder="Wprowadź tekst"></textarea>
-                <div class="modal-checkbox-wrapper">
-                    <div class="modal-disclaimer-wrapper">
-                        <input class="modal-checkbox" type="checkbox" name="statutes" value="statutes" required/>
-                        <label class="policy-label"> Oświadczam iż akceptuję 
-                             <a class="modal-policy-text" href="#">Regulamin</a> i 
-                             <a class="modal-policy-text" href="#">Politykę Prywatności.</a> </span> 
-                        </label>
-                    </div>
+                <div class="modal-declaimer-wrapper">
+                    <input class="modal-checkbox visually-hidden" type="checkbox" id="user-policy" name="statutes" value="statutes" required></input>
+                    <label class="policy-label" for="user-policy"> Oświadczam iż akceptuję <a class="modal-policy-linktext" href="#">Regulamin</a> i <a class="modal-policy-linktext" href="#">Politykę Prywatności.</a>
+                    </label>   
                     <button class="modal-btn" type="submit">Wyślij</button>
                 </div>
             </form>
